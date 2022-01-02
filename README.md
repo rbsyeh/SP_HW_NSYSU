@@ -1,2 +1,2 @@
-# SP_HW_NSYSU
+# System Programming
 ## Homework of Course "System Programming" in NSYSU
