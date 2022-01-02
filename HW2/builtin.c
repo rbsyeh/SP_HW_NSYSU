@@ -11,9 +11,6 @@
 #include "shell.h"
 #include <string.h>
 
-
-
-
 /****************************************************************************/
 /* builtin function definitions                                             */
 /****************************************************************************/
@@ -25,7 +22,7 @@ static void bi_echo(char **argv) {
   	if(strcmp(argv[1],"-n")==0){
 
   		char num_temp[1];
-        strcpy (num_temp, argv[2]);
+        	strcpy (num_temp, argv[2]);
 
   		int num = num_temp[0]-48;
 
