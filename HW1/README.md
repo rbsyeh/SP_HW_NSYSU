@@ -2,7 +2,7 @@
 
 ### Rules:
 1. Please use C languagein this homework and run your program on Ubuntu 18.04(or20.04).
-2. Please provide Makefileto compile your homework; otherwise, you will get ZERO.
+2. Please provide Makefile to compile your homework; otherwise, you will get ZERO.
 
 ### Homework:
 
