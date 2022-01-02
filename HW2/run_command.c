@@ -15,8 +15,7 @@ void run_command(char **myArgv) {
     int stat;
 
     /* Create a new child process.
-     * Fill in code.
-	 */
+     * Fill in code. */
     pid=fork();
 
     switch (pid) {
@@ -38,13 +37,10 @@ void run_command(char **myArgv) {
                     exit(1);
                 }
             }
-            
-
-            
+  
 
             /* Optional: display exit status.  (See wstat(5).)
-             * Fill in code.
-			 */
+             * Fill in code. */
 
             if(WIFSIGNALED(stat)){
                 printf("%s terminated by signal %d.\n", myArgv[0], WTERMSIG(stat));
@@ -57,8 +53,6 @@ void run_command(char **myArgv) {
             else if(WIFSTOPPED(stat)){
                 printf("%s stopped by signal %d.\n", myArgv[0], WSTOPSIG(stat));
             }
-
-
 
             return;
 
